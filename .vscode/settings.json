@@ -1,0 +1,7 @@
+{
+    "git.ignoreLimitWarning": true,
+    "java.debug.settings.onBuildFailureProceed": true,
+    "explorer.autoOpenDroppedFile": true,
+    "explorer.fileNesting.enabled": false,
+    "explorer.autoReveal": true
+}
