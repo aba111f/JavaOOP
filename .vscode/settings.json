@@ -3,5 +3,10 @@
     "java.debug.settings.onBuildFailureProceed": true,
     "explorer.autoOpenDroppedFile": true,
     "explorer.fileNesting.enabled": false,
-    "explorer.autoReveal": true
+    "explorer.autoReveal": true,
+    "java.project.sourcePaths": [
+        "OOP/Lectures/Projects",
+        "OOP/Lab1",
+        "OOP/Lab4"
+    ]
 }
