@@ -21,6 +21,7 @@ public class Manager extends NewEmployee{
             
             i++;
             if(i==staff.length) return -1;
+
         }
         
         return i;
@@ -42,42 +43,46 @@ public class Manager extends NewEmployee{
         return false;
     }
 
-      public boolean removeEmployee(NewEmployee chel, Manager man) {
-        int i = man.findNewEmployee(chel);
+      public boolean removeEmployee(NewEmployee chel) {
+        int i = findNewEmployee(chel);
         int j=0;
         int c=0;
 
-        NewEmployee newStaff[]=new NewEmployee[man.staff.length-1];
+        NewEmployee newStaff[]=new NewEmployee[this.staff.length-1];
 
         if(i == -1){
             return false;
         }
         NewemployeeCount--;
         while (true) {
-            if(j==man.staff.length){
+            if(j == this.staff.length){
                 break;
             }
             if (j==i) {
                 j++;
                 continue;
             }
-            newStaff[c] =man.staff[j];
+            newStaff[c] = this.staff[j];
             c++;
             j++;
         }
-        man.staff=newStaff;
+        this.staff=newStaff;
         
         return true;
       }
-    public void len(){
+
+
+    public void printStaff(){
         for(int i=0;i<staff.length;i++){
             if(staff[i]!=null){
-                System.out.println(staff[i].getName());
+                System.out.println("name: " + staff[i].getName());
+                System.out.println("ID: " + staff[i].getEmpId());
+                System.out.println("SSN: " + staff[i].getSsn());
+                System.out.println("Salary: " + staff[i].getSalary());
             }
         }
     }
-    public void printLenStaff(){
-        System.out.println(staff.length);
-    }
+
+    
 
 }

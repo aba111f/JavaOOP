@@ -13,7 +13,7 @@ public class NewEmployeeTest {
 
         Engineer myEng = new Engineer(101, "Jane Smith", "012-34-5678", 120345.27);
 
-        NewEmployee myEmp = new NewEmployee(0, "aba", "notaba", 0);
+        NewEmployee myEmp = new NewEmployee(0, "aba", "125566-5533", 0);
         
         Manager myMang = new Manager(207, "Barbara Johnson", "054-12-2367", 109501.36, "US Marketing", staff);
 
@@ -25,16 +25,15 @@ public class NewEmployeeTest {
         // printEmployee(myEng);
         boolean isAdded = myMang.addEmployee(myEmp);
         
-        myMang.len();
-    
-
-        boolean isRemoved = myMang.removeEmployee(myEmp, myMang);
         
-        myMang.len();
+
+        boolean isRemoved = myMang.removeEmployee(myEmp);
+        
+     
 
         isAdded = myMang.addEmployee(myEmp);
-        
-        myMang.len();
+        myMang.printStaff();
+       
     }
 
     public static void printEmployee(NewEmployee myEmp){
