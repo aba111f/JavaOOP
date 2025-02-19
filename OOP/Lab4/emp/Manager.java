@@ -11,6 +11,9 @@ public class Manager extends NewEmployee{
         this.staff = new NewEmployee[20];
     } 
 
+
+    
+
     public String getDeptName(){
         return deptName;
     }
@@ -73,6 +76,8 @@ public class Manager extends NewEmployee{
 
 
     public void printStaff(){
+        System.out.println(this.getName());
+        System.out.println(getDeptName());
         for(int i=0;i<staff.length;i++){
             if(staff[i]!=null){
                 System.out.println("name: " + staff[i].getName());

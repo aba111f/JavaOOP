@@ -24,6 +24,7 @@ public class NewEmployee {
         name = data;
     }   
     public String getName(){
+        
         return name;
     }  
 
