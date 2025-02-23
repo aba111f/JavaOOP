@@ -6,7 +6,8 @@
     "explorer.autoReveal": true,
     "java.project.sourcePaths": [
         "OOP/Lectures/Projects",
+        "OOP/Lab4",
         "OOP/Lab1",
-        "OOP/Lab4"
+        "OOP/Projects"
     ]
 }
