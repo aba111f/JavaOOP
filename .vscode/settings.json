@@ -5,9 +5,13 @@
     "explorer.fileNesting.enabled": false,
     "explorer.autoReveal": true,
     "java.project.sourcePaths": [
+        "OOP/Projects",
         "OOP/Lectures/Projects",
+        "OOP/Lab5_/practices",
+        "OOP/Lab5/practices/emp",
+        "OOP/Lab5/practices",
         "OOP/Lab4",
         "OOP/Lab1",
-        "OOP/Projects"
+        "OOP/Lab55"
     ]
 }

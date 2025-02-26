@@ -28,7 +28,7 @@ public class calcurlator implements ActionListener{
         frame.setLayout(null);
 
         textfield = new JTextField();
-        textfield.setBounds(50, 25, 300, 50);
+        textfield.setBounds(25, 25, 350, 50);
         textfield.setFont(myFont);
         textfield.setEditable(false);
 
