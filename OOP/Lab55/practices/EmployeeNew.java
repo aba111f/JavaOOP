@@ -53,7 +53,7 @@ public class EmployeeNew {
 
     @Override
     public String toString() {
-        return String.format("empID:   %20s\nName:    %20s\nSSN:     %20s\nSalary:  %20s\n",
+        return String.format("empID:   %20s\nName:    %20s\nSSN:     %20s\nSalary:  %20s",
                 empId, name, ssn, NumberFormat.getCurrencyInstance(Locale.US).format(salary));
     }
     

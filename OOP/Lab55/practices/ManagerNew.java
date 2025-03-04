@@ -91,7 +91,7 @@ public class ManagerNew extends EmployeeNew{
 
     @Override
     public String toString(){
-        return super.toString() + String.format("DeptName: %20s\n", getDeptName());
+        return super.toString() +'\n'+ String.format("DeptName: %20s", getDeptName());
     }
     
 }

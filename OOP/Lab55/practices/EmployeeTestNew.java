@@ -3,7 +3,7 @@ import some.example1.business.EmployeesStockPlan;
 import some.example1.domain_1.AdminNew;
 import some.example1.domain_1.DirectorNew;
 import some.example1.domain_1.EngineerNew;
-import some.example_1.*;
+
 
 
 public class EmployeeTestNew {
@@ -53,8 +53,7 @@ public class EmployeeTestNew {
     
     public static void printEmployeeNew(EmployeeNew myEmp, EmployeesStockPlan empStock){
         printEmployeeNew(myEmp);
-        System.out.println("number of stock: " + empStock.grantStock(myEmp));
-
-
+        System.out.printf("number of stock:     %8d\n", empStock.grantStock(myEmp));
+        System.out.println();
     }
 }
