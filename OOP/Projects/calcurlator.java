@@ -5,7 +5,7 @@ import java.awt.event.*;
 
 
 
-public class calcurlator implements ActionListener{
+public class calcurlator implements ActionListener {
 
     JFrame frame;
     JTextField textfield;

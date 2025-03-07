@@ -1,0 +1,105 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "calc",
+            "request": "launch",
+            "mainClass": "calc",
+            "projectName": "java_cd47505f"
+        },
+        {
+            "type": "java",
+            "name": "calcurlator",
+            "request": "launch",
+            "mainClass": "calcurlator",
+            "projectName": "java_cd47505f"
+        },
+        {
+            "type": "java",
+            "name": "Admin",
+            "request": "launch",
+            "mainClass": "com.example.domain.Admin",
+            "projectName": "java_cd47505f"
+        },
+        {
+            "type": "java",
+            "name": "Engineer",
+            "request": "launch",
+            "mainClass": "com.example.domain.Engineer",
+            "projectName": "java_cd47505f"
+        },
+        {
+            "type": "java",
+            "name": "NewEmployee",
+            "request": "launch",
+            "mainClass": "emp.NewEmployee",
+            "projectName": "java_cd47505f"
+        },
+        {
+            "type": "java",
+            "name": "NewEmployeeTest",
+            "request": "launch",
+            "mainClass": "emp.NewEmployeeTest",
+            "projectName": "java_cd47505f"
+        },
+        {
+            "type": "java",
+            "name": "employee",
+            "request": "launch",
+            "mainClass": "employee",
+            "projectName": "java_cd47505f"
+        },
+        {
+            "type": "java",
+            "name": "EmployeeNew",
+            "request": "launch",
+            "mainClass": "practices.EmployeeNew",
+            "projectName": "java_cd47505f"
+        },
+        {
+            "type": "java",
+            "name": "EmployeeTestNew",
+            "request": "launch",
+            "mainClass": "practices.EmployeeTestNew",
+            "projectName": "java_cd47505f"
+        },
+        {
+            "type": "java",
+            "name": "EmployeesStockPlan",
+            "request": "launch",
+            "mainClass": "some.example1.business.EmployeesStockPlan",
+            "projectName": "java_cd47505f"
+        },
+        {
+            "type": "java",
+            "name": "AdminNew",
+            "request": "launch",
+            "mainClass": "some.example1.domain_1.AdminNew",
+            "projectName": "java_cd47505f"
+        },
+        {
+            "type": "java",
+            "name": "EngineerNew",
+            "request": "launch",
+            "mainClass": "some.example1.domain_1.EngineerNew",
+            "projectName": "java_cd47505f"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "src.Main",
+            "projectName": "java_cd47505f"
+        }
+    ]
+}

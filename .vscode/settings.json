@@ -7,11 +7,9 @@
     "java.project.sourcePaths": [
         "OOP/Projects",
         "OOP/Lectures/Projects",
-        "OOP/Lab5_/practices",
-        "OOP/Lab5/practices/emp",
-        "OOP/Lab5/practices",
+        "OOP/Lab55",
         "OOP/Lab4",
         "OOP/Lab1",
-        "OOP/Lab55"
+        "OOP/Lab6/Labs06-Advanced_Class_Design-AbstractBanking/AbstractBanking/src/com/example"
     ]
 }
