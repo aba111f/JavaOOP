@@ -2,11 +2,11 @@
 
 import java.util.Date;
 
-public class TimeDepositAccount extends Account {
+public class TimeDepositAccount1 extends Account {
     
     private final Date maturityDate;
     
-    public TimeDepositAccount(double balance, Date maturityDate) {
+    public TimeDepositAccount1(double balance, Date maturityDate) {
         super(balance);
         this.maturityDate = maturityDate;
     }
