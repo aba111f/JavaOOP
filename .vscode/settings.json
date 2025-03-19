@@ -5,11 +5,16 @@
     "explorer.fileNesting.enabled": false,
     "explorer.autoReveal": true,
     "java.project.sourcePaths": [
-        "OOP/Projects",
-        "OOP/Lectures/Projects",
-        "OOP/Lab55",
-        "OOP/Lab4",
-        "OOP/Lab1",
-        "OOP/Lab6/Labs06-Advanced_Class_Design-AbstractBanking/AbstractBanking/src/com/example"
-    ]
+        "OOP\\Lab1",
+        "OOP\\Lab4",
+        "OOP\\Lab55",
+        "OOP\\Lab6\\Project\\src\\AbstractBanking\\src\\com\\example",
+        "OOP\\Lectures\\Projects",
+        "OOP\\Projects",
+        "OOP\\newLab6\\Practice1",
+        "OOP\\newLab6\\Practice2\\src",
+        "OOP\\newLab6\\Practice3\\src",
+        "OOP\\newLab6\\Practice4\\src"
+    ],
+    "java.project.referencedLibraries": []
 }

@@ -6,6 +6,62 @@
     "configurations": [
         {
             "type": "java",
+            "name": "NestedClassesMain",
+            "request": "launch",
+            "mainClass": "com.example.NestedClassesMain",
+            "projectName": "java_cd47505f"
+        },
+        {
+            "type": "java",
+            "name": "NestedClassesMain",
+            "request": "launch",
+            "mainClass": "NestedClassesMain",
+            "projectName": "java_cd47505f"
+        },
+        {
+            "type": "java",
+            "name": "EnumBankingMain",
+            "request": "launch",
+            "mainClass": "com.example.EnumBankingMain",
+            "projectName": "java_cd47505f"
+        },
+        {
+            "type": "java",
+            "name": "EnumBankingMain",
+            "request": "launch",
+            "mainClass": "EnumBankingMain",
+            "projectName": "java_cd47505f"
+        },
+        {
+            "type": "java",
+            "name": "SingletonBankingMain",
+            "request": "launch",
+            "mainClass": "com.example.SingletonBankingMain",
+            "projectName": "java_cd47505f"
+        },
+        {
+            "type": "java",
+            "name": "AbstractBankingMain",
+            "request": "launch",
+            "mainClass": "src.com.example1.AbstractBankingMain",
+            "projectName": "java_cd47505f"
+        },
+        {
+            "type": "java",
+            "name": "AbstractBankingMain",
+            "request": "launch",
+            "mainClass": "src.com.example.AbstractBankingMain",
+            "projectName": "java_cd47505f"
+        },
+        {
+            "type": "java",
+            "name": "AbstractBankingMain",
+            "request": "launch",
+            "mainClass": "AbstractBankingMain",
+            "projectName": "java_cd47505f"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
