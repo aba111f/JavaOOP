@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ThreadInterruptedMain",
+            "request": "launch",
+            "mainClass": "NetworkThreading.src.com.example.ThreadInterruptedMain",
+            "projectName": "java_cd47505f"
+        },
+        {
+            "type": "java",
+            "name": "SynchronizedMain",
+            "request": "launch",
+            "mainClass": "Synchronized.src.com.example.SynchronizedMain",
+            "projectName": "java_cd47505f"
+        },
+        {
+            "type": "java",
+            "name": "EmployeeTestInteractive",
+            "request": "launch",
+            "mainClass": "EmployeeMemoryDAO.src.com.example.test.EmployeeTestInteractive",
+            "projectName": "java_cd47505f"
+        },
+        {
+            "type": "java",
+            "name": "PetMain",
+            "request": "launch",
+            "mainClass": "PetComposition.src.com.example.PetMain",
+            "projectName": "java_cd47505f"
+        },
+        {
+            "type": "java",
+            "name": "PetMain",
+            "request": "launch",
+            "mainClass": "Pet.src.com.example.PetMain",
+            "projectName": "java_cd47505f"
+        },
+        {
+            "type": "java",
             "name": "NestedClassesMain",
             "request": "launch",
             "mainClass": "com.example.NestedClassesMain",

@@ -1,7 +1,6 @@
 
 package src.com.example1;
 
-import java.util.Date;
 
 
 public abstract class Account {
