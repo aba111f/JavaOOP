@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DbConnect",
+            "request": "launch",
+            "mainClass": "Lab9.DbConnect",
+            "projectName": "java_cd47505f"
+        },
+        {
+            "type": "java",
+            "name": "DbConnect",
+            "request": "launch",
+            "mainClass": "DbConnect",
+            "projectName": "java_cd47505f"
+        },
+        {
+            "type": "java",
             "name": "ThreadInterruptedMain",
             "request": "launch",
             "mainClass": "NetworkThreading.src.com.example.ThreadInterruptedMain",

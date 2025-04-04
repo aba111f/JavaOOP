@@ -5,18 +5,18 @@
     "explorer.fileNesting.enabled": false,
     "explorer.autoReveal": true,
     "java.project.sourcePaths": [
+        "OOP",
+        "OOP\\Lab_8",
         "OOP\\Lab1",
         "OOP\\Lab4",
         "OOP\\Lab55",
-        "OOP\\Lab6\\Project\\src\\AbstractBanking\\src\\com\\example",
+        "OOP\\lab8",
         "OOP\\Lectures\\Projects",
-        "OOP\\Projects",
         "OOP\\newLab6\\Practice1",
         "OOP\\newLab6\\Practice2\\src",
         "OOP\\newLab6\\Practice3\\src",
         "OOP\\newLab6\\Practice4\\src",
-        "OOP\\lab8",
-        "OOP\\Lab_8"
+        "OOP\\Projects"
     ],
     "java.project.referencedLibraries": []
 }

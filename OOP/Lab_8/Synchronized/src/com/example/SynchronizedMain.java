@@ -10,6 +10,5 @@ public class SynchronizedMain {
         PracticeThread p2 = new PracticeThread(); 
         p1.start();
         p2.start();
-        System.out.println(Thread.activeCount());
     }
 }
